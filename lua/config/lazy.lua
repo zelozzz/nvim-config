@@ -28,9 +28,9 @@ require("lazy").setup({
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
   git = {
-	  -- log = { "-1" }, -- show the last 10 commit
-	  timeout = 300,
-	  url_format = "git@github.com:%s.git",
+    -- log = { "-1" }, -- show the last 10 commit
+    timeout = 300,
+    url_format = "git@github.com:%s.git",
   },
   install = { colorscheme = { "tokyonight", "habamax" } },
   checker = { enabled = true }, -- automatically check for plugin updates
