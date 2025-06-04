@@ -31,6 +31,7 @@ require("lazy").setup({
     -- log = { "-1" }, -- show the last 10 commit
     timeout = 300,
     url_format = "git@github.com:%s.git",
+    filter=false,
   },
   install = { colorscheme = { "tokyonight", "habamax" } },
   checker = { enabled = true }, -- automatically check for plugin updates

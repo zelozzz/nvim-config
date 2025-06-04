@@ -21,7 +21,7 @@ return {
         -- 1. The repository (e.g. "rust-lang/rust-analyzer")
         -- 2. The release version (e.g. "v0.3.0")
         -- 3. The asset name (e.g. "rust-analyzer-v0.3.0-x86_64-unknown-linux-gnu.tar.gz")
-        download_url_template = "https://ghproxy.cn/https://github.com/%s/releases/download/%s/%s",
+        download_url_template = "https://ghproxy.net/https://github.com/%s/releases/download/%s/%s",
       },
 
       ensure_installed = {
